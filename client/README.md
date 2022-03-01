@@ -26,4 +26,4 @@ To start client, run:
 
 ## Screenshots
 
-![gRPC-client-server-PoC](documentation/frontend-view.png)
+![gRPC-client-server-PoC](../documentation/frontend-view.png)
