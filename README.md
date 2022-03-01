@@ -24,7 +24,13 @@ was used. This part is used to implement gRPC methods described in `.proto` file
 This part is used to convert request calls from protocol **HTTP 1.1** to **HTTP 2.0**.
 
 ## Usage
-Go to folders: `server`, `proxy`, `client` and run them respectively. There is separate `README.md` for each component, so running whole infrastructure should not be a problem. 
+Go to folders: `server`, `proxy`, `client` and run them respectively. There is separate `README.md` for each component, so running whole infrastructure should not be a problem.
+
+There is also a way to run a whole project with `docker-compose`. Just run command:
+
+    docker-compose up -d
+
+Then open a browser on [http://localhost:3000/](http://localhost:3000/) and test the API. 
 
 ## Source links
 * https://grpc.io/
