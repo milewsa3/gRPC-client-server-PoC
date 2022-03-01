@@ -15,6 +15,7 @@ Run script `generate-proto.ps1`
     ./generate-proto.ps1
 
 ℹ️ Generate always after changes in `.proto` file
+
 ⚠️ Script works only on **Windows**. To run it on **Linux** just copy content of the script, replace Windows commands with Linux equivalents and run it.
 
 ## Usage
@@ -22,3 +23,7 @@ To start client, run:
 
     npm install
     npm start
+
+## Screenshots
+
+![gRPC-client-server-PoC](documentation/frontend-view.png)
