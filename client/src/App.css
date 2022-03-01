@@ -1,0 +1,80 @@
+.root {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.h3 {
+    font-size: 45px;
+}
+
+.h4 {
+    font-size: 36px;
+}
+
+.h5 {
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grpc-logo {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.grpc-logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    gap: 6px;
+}
+
+.submit-btn {
+    margin-top: 6px;
+    width: 70px;
+    height: 30px;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+.request {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.response {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.requests {
+    display: flex;
+    gap: 100px;
+}
