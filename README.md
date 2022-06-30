@@ -32,6 +32,8 @@ There is also a way to run a whole project with `docker-compose`. Just run comma
 
 Then open a browser on [http://localhost:3000/](http://localhost:3000/) and test the API. 
 
+Warning: Look for https://github.com/grpc/grpc-web/issues/1220 issue and fix proxy by reconfiguring envoy.yaml
+
 ## Source links
 * https://grpc.io/
 * https://github.com/marcosmartinez7/grpc-react-example
